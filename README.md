@@ -1,6 +1,7 @@
 # FITS-image-viewer
 sample script to read and display FITS images as well as PIL supported images using PySimpleGUI
-```
+<img src=https://github.com/meteorspectroscopy/FITS-image-viewer/blob/master/doc/fits_image_viewer.PNG>
+```Python
 """
     Demo Image Album.... displays images on Graph Element and transitions
     by sliding them across.  Click on right side of image to navigate down through filenames, left side for up.
@@ -21,6 +22,6 @@ sample script to read and display FITS images as well as PIL supported images us
 ```
 two versions are available:
 
-image_viewer_test.py: compares using Byte array versus storing images on disk for display
+image_viewer_test.py: compares speed using Byte array versus storing images on disk for display
 
-fits_image_viewer.py: old method eliminated, but same functionality
+fits_image_viewer.py: old method of storing images on disk eliminated, but same functionality
