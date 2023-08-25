@@ -25,3 +25,4 @@ two versions are available:
 image_viewer_test.py: compares speed using Byte array versus storing images on disk for display
 
 fits_image_viewer.py: old method of storing images on disk eliminated, but same functionality
+archived
